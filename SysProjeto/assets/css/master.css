@@ -1,0 +1,322 @@
+/* cores cinza escuro #3D3D3D
+      cinza claro #969696
+      quase branco #FCFCFC */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body,
+html {
+    background-color: #f6f7f8;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.botao-matricula {
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #666;
+    transition: all .4s ease-in-out;
+    border-radius: 0.25rem;
+}
+
+.botao-matricula:hover {
+    background-color: #3D3D3D;
+    transition: all .4s ease-in-out;
+}
+
+.mario {
+    box-shadow: 16px 15px 9px -3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #3D3D3D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 980px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.mario1 {
+    box-shadow: 16px 15px 9px -3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #3D3D3D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.adm {
+    padding: 25px;
+    display: flex;
+    justify-content: flex-end;
+    flex: row;
+}
+
+.but {
+    padding: 15px;
+}
+
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-hover.color-8 {
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+.btn-hover {
+    padding-top: 35px;
+    width: 400px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 auto;
+    height: 100px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 30px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.menu-adm {
+    width: 600px;
+    padding: 50px;
+    border-radius: 25px;
+    gap: 40px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #3D3D3D;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-light {
+    background-color: #ffffff !important;
+    color: #FFFFFF !important;
+    font-weight: bold !important;
+}
+
+.bg-vaga {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    font-weight: bold !important;
+}
+
+.bg-vaga-nav {
+    background-image: url(../../assets/img/cool-background\ \(1\).png) !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #FFFFFF !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.gradiente {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 55, 121, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    width: 100%;
+    height: 200px;
+}
+
+.card {
+    box-shadow: 16px 15px 9px -3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border: 1px solid #3D3D3D;
+    width: 90%;
+}
+
+.card-text {
+    height: 5em;
+}
+
+.card-header {
+    color: #FCFCFC;
+}
+
+.jumbotron {
+    padding-top: 80px;
+    background-color: #F6F7F8;
+    /* background: #3D3D3D url(../img/cool-background.png) center left no-repeat; */
+    /* background-size: cover; */
+    /* transition: background-size 5s; */
+    /* color: #ffffff; */
+}
+
+.circulo {
+    background-color: #b5cef7;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.table {
+    color: #000000;
+}
+
+code {
+    color: #0223e1a8 !important;
+    font-weight: bold;
+}
+
+.btn-outline-danger {
+    color: #3D3D3D;
+    background-color: transparent;
+    background-image: none;
+    border-color: #3D3D3D;
+}
+
+.btn-outline-danger:hover {
+    color: #FFFFFF;
+    background-color: #3D3D3D;
+    border-color: #3D3D3D;
+}
+
+.direita {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.espaco {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.radioB {
+    margin-left: 4%;
+}
+
+.radio-item {
+    display: inline-block;
+    position: relative;
+    padding: 0 6px;
+    margin: 10px 0 0;
+}
+
+.radio-item input[type='radio'] {
+    display: none;
+}
+
+.radio-item label {
+    color: #666;
+    font-weight: normal;
+}
+
+.radio-item label:before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+    border: 2px solid #777777;
+    background-color: transparent;
+}
+
+.radio-item input[type=radio]:checked+label:after {
+    border-radius: 11px;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    content: " ";
+    display: block;
+    background: #3D3D3D;
+}
+
+.cardBack1 {
+    background: #fc5609a8 url(../img/cool-background\ \(2\).png) center left no-repeat;
+    background-size: cover;
+}
+
+.cardBack2 {
+    background: #fc5609a8 url(../img/cool-background\ \(3\).png) center left no-repeat;
+    background-size: cover;
+    color: #3D3D3D;
+    font-weight: 900;
+}
+
+.cardBody1 {
+    background: #fcdccd;
+}
+
+.cardBody2 {
+    background: #fac1c1;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #3D3D3D;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #3D3D3D;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control-1 {
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    color: #3D3D3D;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #3D3D3D;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control-1:focus {
+    color: #3D3D3D;
+    background-color: #fff;
+    border-color: #969696;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem #000000;
+}
+
+.form-control:focus {
+    color: #3D3D3D;
+    background-color: #fff;
+    border-color: #969696;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem #000000;
+}
